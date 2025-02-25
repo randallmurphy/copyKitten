@@ -2,8 +2,7 @@
 .table{
     margin-left: 20px;
     display: grid;
-    grid-column-gap: 30px;
-    grid-row-gap: 8px;
+    grid-gap: 20px;
 }
 #cell-1{
     border-right: 1px solid black;
@@ -52,5 +51,10 @@
 /*  */
 a{
     padding: 5px;
-    line-height: 8px;
+    
 }
+/*  */
+.cell:hover{
+    background: salmon;
+}
+
