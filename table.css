@@ -1,0 +1,56 @@
+
+.table{
+    margin-left: 20px;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 8px;
+}
+#cell-1{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#cell-2{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#cell-3{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/*  */
+#cell-4{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#cell-5{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#cell-6{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+/*  */
+#cell-7{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+#cell-8{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+#cell-9{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+/*  */
+a{
+    padding: 5px;
+    line-height: 8px;
+}
